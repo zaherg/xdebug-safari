@@ -9,7 +9,7 @@ A macOS Safari port of [JetBrains’ Xdebug Helper](https://github.com/JetBrains
 **Requirements:** an Apple Silicon Mac (M1 or later) running macOS 13 or later. The current release does not support Intel Macs. You do not need Xcode or an Apple Developer account to install it.
 
 1. Open the [latest release](https://github.com/zaherg/xdebug-safari/releases/latest).
-2. Download **`Xdebug Helper for Safari-notarized.zip`** from **Assets** and unzip it.
+2. Download **`Xdebug.Helper.for.Safari-notarized.zip`** from **Assets** and unzip it.
 3. Move **Xdebug Helper for Safari.app** into your **Applications** folder.
 4. Open the app and select **Open Safari Settings**.
 5. In **Safari > Settings > Extensions**, enable **Xdebug Helper for Safari Extension**.
