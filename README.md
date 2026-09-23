@@ -1,6 +1,7 @@
 # Xdebug Helper for Safari
 
-> Built with Astro from Codex.
+> [!IMPORTANT]
+> This version was converted to Safari using Astro Model from Codex. use it with caution.
 
 A macOS Safari port of [JetBrains’ Xdebug Helper](https://github.com/JetBrains/xdebug-extension). Toggle Xdebug debugging, profiling, and tracing from the Safari toolbar, with configurable IDE keys and triggers.
 
