@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-locale="popup_title">Xdebug Helper Popup</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+    <form id="popup">
+        <input type="radio" id="debug" name="state" value="1">
+        <label for="debug" data-locale="popup_debug"><img src="img/debug32.png" alt="" width="16" height="16" />Debug</label>
+        <input type="radio" id="profile" name="state" value="2">
+        <label for="profile" data-locale="popup_profile"><img src="img/profile32.png" alt="" width="16" height="16"/>Profile</label>
+        <input type="radio" id="trace" name="state" value="3">
+        <label for="trace" data-locale="popup_trace"><img src="img/trace32.png" alt="" width="16" height="16"/>Trace</label>
+        <input type="radio" id="disable" name="state" value="0">
+        <label for="disable" data-locale="popup_disable"><img src="img/disable32.png" alt="" width="16" height="16" />Disable</label>
+        <p id="status" role="status">Checking website access…</p>
+        <a href="options.html" id="options" data-locale="popup_options">options</a>
+    </form>
+    <script src="popup.js"></script>
+</body>
+
+</html>

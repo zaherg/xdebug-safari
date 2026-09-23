@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-locale="options_title">Xdebug Helper Options</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+
+<body>
+    <h1 data-locale="extension_name">Xdebug Helper for Safari</h1>
+    <form>
+        <fieldset>
+            <label for="debugtrigger" data-locale="options_debug_trigger">Debug Trigger or Xdebug Cloud Key</label>
+            <input type="text" id="debugtrigger" value="">
+            <label for="tracetrigger" data-locale="options_trace_trigger">Trace Trigger</label>
+            <input type="text" id="tracetrigger" value="">
+            <label for="profiletrigger" data-locale="options_profile_trigger">Profile Trigger</label>
+            <input type="text" id="profiletrigger" value="">
+            <button type="reset" data-locale="options_clear">Clear</button>
+            <button type="submit" data-locale="options_save">Save</button>
+        </fieldset>
+        <p id="status" role="status">Loading settings…</p>
+    </form>
+    <div id="help">
+        <h2 data-locale="options_shortcuts">Shortcuts</h2>
+    </div>
+    <a href="https://github.com/JetBrains/xdebug-extension" target="_blank" rel="noreferrer">
+        <img src="img/github25.png" alt="GitHub logo" width="25" height="25">
+        Based on JetBrains’ Xdebug Helper
+    </a>
+    <script src="options.js"></script>
+</body>
+
+</html>

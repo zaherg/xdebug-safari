@@ -1,0 +1,26 @@
+/build
+/node_modules
+/.cache
+/test/node_modules
+.idea
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+
+# Credentials, signing material, and local configuration
+.env
+.env.*
+*.p8
+*.p12
+*.pfx
+*.key
+*.pem
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+AuthKey_*
+*.xcarchive
+*.dSYM
