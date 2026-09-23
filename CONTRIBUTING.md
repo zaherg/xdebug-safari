@@ -12,7 +12,7 @@ npm test
 npm run test:browser
 ```
 
-The GitHub Actions workflow runs unit tests and syntax checks. It does not sign, notarize, or publish apps. The legacy Chromium/Firefox helpers under `test/` and `build.sh` are inherited from upstream and are not the Safari release workflow.
+Tests live in `tests/`. The GitHub Actions workflow runs unit tests and syntax checks; it does not sign, notarize, or publish apps. The legacy `build.sh` is inherited from upstream and is not the Safari release workflow.
 
 ## Release a Safari build
 
